@@ -1,0 +1,135 @@
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+.container-two-1{
+    width: 100%;
+    background-image: linear-gradient(0, #451da0, #dd5649);
+}
+.container-two{
+    width: 613px;
+    height: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    display: block;
+    /* text-align: center; */
+}
+
+.header{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.header-heading{
+    /* color: var(--text-color); */
+    font-size: 1.6rem;
+}
+
+.header-wage{
+    color: var(--red-color);
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.header-profile{
+    display: flex;
+    align-items: center;
+
+}
+
+.header-profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.header-profile-name{
+    font-size: 1.3rem;
+    /* padding-left: 10px; */
+}
+
+.header-describe{
+    font-size: 1.4rem;
+    padding-top: 6px;
+    display: block;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding-left: 10px;
+}
+
+.content-icon{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+
+.content-column1{
+    width: 50%;
+    display: block;
+}
+
+.content-column2{
+    width: 50%;
+    display: block;
+}
+.content-list{
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.content-list-name{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.addess{
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.header-describe-address{
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.btn-container-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box  ;
+    padding: 0 10px;
+}
+
+.btn-container-two-accept{
+    height: 32px;
+    width: 48%;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-fix{
+    color: #ff8800;
+    background-color: var(--white-color);
+    border: 1px solid #ff8800;
+}
+
+.btn-remove{
+    color: var(--white-color);
+    background-color: #ff8800;
+}
+

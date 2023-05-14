@@ -1,0 +1,23 @@
+:root{
+    --white-color: #fff;
+    --black-color:#000;
+    --text-color:#333;
+    --red-color: #ee4d2d;
+    --border-color: #dbdbdb;
+    --star-gold-color:#ffce3e;
+    --primary-color: #451da0;
+
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
+}
+
+html {
+    /* ddatw nhu nay thi 1 rem = 10px */
+    font-size: 62.5%; 
+    /* font-size: 1.6rem; */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
