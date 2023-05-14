@@ -122,10 +122,19 @@
     cursor: pointer;
 }
 
+.btn-container-two-accept:hover{
+    opacity: 0.8;
+}
+
 .btn-fix{
     color: #ff8800;
     background-color: var(--white-color);
     border: 1px solid #ff8800;
+}
+
+.btn-fix:hover{
+    color: var(--white-color);
+    background-color: #ff8800;
 }
 
 .btn-remove{
